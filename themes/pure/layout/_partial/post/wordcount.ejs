@@ -1,0 +1,9 @@
+<% if(theme.postCount.enable){  %>
+	<% if(theme.postCount.wordcount){  %>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">
+<%= __('字数') %>: <%= wordcount(post.content) %>  </span>
+	<% } %>
+	<% if(theme.postCount.min2read){  %>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired"><%= __('article.readcount') %>: <%= min2read(post.content) %>(<%= __('unit.time') %>)</span>
+	<% } %>
+<% } %>

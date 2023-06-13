@@ -1,0 +1,240 @@
+# menu
+menu:
+  Home: .
+  Archives: archives 
+  Categories: categories  
+ # Tags: tags  
+ # Repository: repository  
+  Books: books  
+ # Links: links  
+  About: about  
+
+# Enable/Disable menu icons
+menu_icons:
+  enable: true  # 是否启用导航菜单图标
+  home: icon-home-fill
+  archives: icon-archives-fill
+  categories: icon-folder
+ # tags: icon-tags
+  repository: icon-project
+  books: icon-book-fill
+ # links: icon-friendship
+  about: icon-cup-fill
+
+# rss
+rss: /atom.xml
+
+# Site
+site:
+  logo:
+    enabled: true
+    width: 40
+    height: 40
+    url: ../images/111.JPG
+  title: stephen # 页面title
+  favicon: ../images/111.JPG
+ # board: <p>欢迎交流与分享经验!</p> # 站点公告
+  copyright: false # 底部版权信息
+
+# config
+config:
+  skin: # 主题颜色 theme-black theme-blue theme-green theme-purple
+  layout: main-center # 布局方式 main-left main-center main-right
+  toc: true # 是否开启文章章节目录导航
+  menu_highlight: false # 是否开启当前菜单高亮显示
+  thumbnail: true # enable posts thumbnail, options: true, false
+  excerpt_link: Read More
+  isNewTabLinks: false #是否链接打开新标签页
+  autoUnfold: true # 默认展开文章目录
+
+# Pagination
+pagination:
+  number: false
+  prev: 
+    alwayShow: true
+  next:
+    alwayShow: true
+  midSize: 2 # 当前页码左右到省略号显示的页码数，默认2，表现为 1 ... 4 5 6 7 8 ... 10
+  showContent: true # 页面文章小于2篇时显示文章内容
+
+# Sidebar
+sidebar: right
+widgets: 
+  - recent_posts
+  - tagcloud
+  - category
+  - archive
+# - tag
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive  
+
+# widget behavior
+archive_type: 'monthly'
+show_count: true
+
+# Fancybox
+fancybox: false
+
+# Search
+search:
+  insight: true # you need to install `hexo-generator-json-content` before using Insight Search
+  baidu: false # you need to disable other search engines to use Baidu search
+
+donate:
+  enable: false
+  wechatpay:
+    qrcode: images/donate/wechatpayimg.png
+    title: 微信支付
+  alipay: 
+    qrcode: images/donate/alipayimg.png 
+    title: 支付宝
+
+# Share
+# weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
+share:
+  enable: false # 是否启用分享
+  sites: weibo,qq,wechat,facebook,twitter  # PC端显示的分享图标
+  mobile_sites: weibo,qq,qzone  # 移动端显示的分享图标
+
+repository:
+  platform: github # 托管平台（github | gitee）
+  username: cofess # 用户名
+
+# Comment
+# Gitment
+# Introduction: https://imsun.net/posts/gitment-introduction/
+comment:
+  type: valine  # 启用哪种评论系统
+  disqus:  # enter disqus shortname here
+  youyan: 
+    uid: 1783844 # enter youyan uid 
+  livere:
+    uid: # enter youyan uid 
+  gitment:
+    githubID: 
+    repo: 
+    ClientID: 
+    ClientSecret: 
+    lazy: false
+  gitalk: # gitalk. https://gitalk.github.io/
+    owner:  #必须. GitHub repository 所有者，可以是个人或者组织。
+    admin:  #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
+    repo:  #必须. GitHub repository.
+    ClientID:  #必须. GitHub Application Client ID.
+    ClientSecret:  #必须. GitHub Application Client Secret.
+    enableHotKey: true
+    language: zh-CN
+    
+  valine: # Valine. https://valine.js.org
+    appid:  # your leancloud application appid
+    appkey:  # your leancloud application appkey
+    notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+    verify: false # Verification code
+    placeholder: Just go go # comment box placeholder
+    avatar: mm # gravatar style
+    meta: nick,mail,link # custom comment header
+    pageSize: 10 # pagination size
+    visitor: false # Article reading statistic https://valine.js.org/visitor.html
+
+# douban 豆瓣书单
+# Api：
+  # https://developers.douban.com/wiki/?title=book_v2 图书
+  # https://developers.douban.com/wiki/?title=movie_v2 电影
+# books：  
+  # https://api.douban.com/v2/book/user/:name/collections?start=0&count=100 个人书单列表
+
+douban:
+ id: 181263519 # 豆瓣用户名
+ start: 0 # 从哪一条记录开始
+ count: 100 # 获取豆瓣书单数据条数
+ apikey: https://api.douban.com/v2/book/user/:name/collections?start=0&count=100
+  
+# PV
+pv:
+  busuanzi:
+    enable: false  # 不蒜子统计
+  leancloud:
+    enable: false  # leancloud统计
+    app_id: # leancloud <AppID>
+    app_key: # leancloud <AppKey>
+        
+# wordcount
+postCount:
+  enable: true
+  wordcount: true  # 文章字数统计
+  min2read: false  # 阅读时长预计 
+
+# Plugins
+plugins:
+  google_analytics: # enter the tracking ID for your Google Analytics
+  google_site_verification: # enter Google site verification code
+  baidu_analytics: # enter Baidu Analytics hash key
+  tencent_analytics: 
+  
+# Miscellaneous
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:  
+  
+# profile
+profile:
+  enabled: true 
+  avatar: ../images/111.JPG
+  gravatar: 
+  author: 一颗赛艇
+  author_title: UE Designer
+  author_description: 被误解是表达者的宿命
+  location: chongqing, China
+# follow: https://github.com/cofess
+
+  social:
+    links:
+      站酷: https://www.zcool.com.cn/studio
+      豆瓣: https://www.douban.com/people/181263519/?_i=1291074YoTuMM0
+      pinterest: https://www.pinterest.com/ssssstephen/
+    link_tooltip: true # enable the social link tooltip, options: true, false
+
+  skills:
+    专业能力: 🌕 🌕 🌕 🌕 🌗
+    沟通能力: 🌕 🌕 🌕 🌕 🌑
+    执行力: 🌕 🌕 🌕 🌕 🌕
+    学习能力: 🌕 🌕 🌕 🌕 🌑
+    团队协作: 🌕 🌕 🌕 🌕 🌑
+
+  links:
+    站酷: https://zcool.com.cn/studio
+    豆瓣: https://douban.com/people/181263519
+    pinterest: https://pinterest.com/ssssstephen
+
+  labels:
+    - 交互设计
+    - 产品设计
+    - 铲屎官
+    - 阅读爱好者
+    - 数字媒体
+    - bug制造者
+  # My Personal Works
+  works:
+    市场IT支撑系统:
+      link: 
+      date: 2023
+    牧场手智慧畜牧管理平台:
+      link: 
+      date: 2023
+    中移物联网官网:
+      link: 
+      date: 2022
+    OneNET统一融合平台:
+      link: 
+      date: 2022
+  # My Personal Projects
+  projects:
+    牧帮手智慧畜牧管理平台: 
+    中山案件审批系统: 
+
+    

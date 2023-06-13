@@ -1,0 +1,25 @@
+<% if (theme.comment.type === 'disqus') 
+{ %>
+    <%- partial('_script/_comment/disqus', { script: false }) %>
+<% } 
+else if (theme.comment.type === 'youyan') 
+{ %>
+    <%- partial('_script/_comment/youyan', { script: false }) %>
+<% } 
+else if (theme.comment.type === 'livere') 
+{ %>
+    <%- partial('_script/_comment/livere', { script: false }) %>
+<% }
+else if (theme.comment.type === 'gitment')
+{ %>
+    <%- partial('_script/_comment/gitment', { script: false }) %>
+<% } 
+else if (theme.comment.type === 'gitalk') 
+{ %>
+    <%- partial('_script/_comment/gitalk', { script: false }) %>      
+<% } 
+else if (theme.comment.type === 'valine') 
+{ %>
+    <%- partial('_script/_comment/valine', { script: false}) %>     
+<% } 
+%>
