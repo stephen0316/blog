@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "0102f71a79cecb6a",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e2f206d4d12c52a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ffb801a1adf914b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "B端表格设计指南.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2ed55b87707c8c5b",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7297d536ccba39b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5af9641947447fce",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "91cc30679f6d9b56",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f10e6f0b411d2dbb",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "ec4c9acce62bf9fb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "6f035a5c06d5c04e",
+    "type": "split",
+    "children": [
+      {
+        "id": "a0fdf502e5496d1d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6806ce6affed769",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "B端表格设计指南.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b5bd77369c779430",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "B端表格设计指南.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2bbc29dcf85107e4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8ff23e37bb99fdc3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "B端表格设计指南.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 291.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "5af9641947447fce",
+  "lastOpenFiles": [
+    "B端表格设计指南.md",
+    "未命名",
+    "beginning.md",
+    "网站收藏.md",
+    "second.md",
+    "beginning 1.md",
+    "test 2.md",
+    "test 5.md",
+    "test 1.md",
+    "test 3.md",
+    "test 4.md",
+    "monica.md",
+    "今天周五啦 1528452926154832aa2e20731431ed4c.md",
+    "say-something.md",
+    "今天周五啦.md",
+    "20230411.md",
+    "今天周五啦 1528452926154832aa2e20731431ed4c/Untitled.png",
+    "今天周五啦 1528452926154832aa2e20731431ed4c",
+    "d7c09abb-cc30-49f4-8416-0ee2766158c6_Export-5708ba0c-2a42-437b-8b12-73664270d95a",
+    "blog搭建之路 1feabff8d6414d1b865f3c0bf4bddebf.md",
+    "地球上最后一个人.md",
+    "ssss.md",
+    "44444.md",
+    "Users/stephen/Desktop/myblog/themes/pure/source/111.JPG.md",
+    "Users/stephen/Desktop/myblog/themes/pure/source",
+    "Users/stephen/Desktop/myblog/themes/pure",
+    "Users/stephen/Desktop/myblog/themes",
+    "Users/stephen/Desktop/myblog",
+    "Users/stephen/Desktop",
+    "Users/stephen",
+    "Users",
+    "20230411/Pasted image 20230411114455.png",
+    "20230411/1111.png",
+    "20230411/444.png",
+    "社会学.md",
+    "111/123.jpg.md",
+    "monica/123.jpg",
+    "B端表格设计指南/yuque_mind2.jpeg",
+    "B端表格设计指南/yuque_mind.jpeg",
+    "B端表格设计指南/image9.png",
+    "B端表格设计指南/image8.png",
+    "B端表格设计指南/image7.png",
+    "B端设计指南/image.png.md",
+    "B端设计指南/28.png.md"
+  ]
+}
