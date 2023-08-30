@@ -11,11 +11,10 @@
             </div>
             <% } %>
             <div class="item-inner">
-              
-              <p class="item-title">
+              <p class="item-title" style="font-size: 15px;margin-top:8px;"  >
                 <a href="<%- url_for((post.link?post.link:post.path)) %>" class="title"><%= post.title || '(no title)' %></a>
               </p>
-              <p class="item-date">
+              <p class="item-date" style="margin:0;">
                 <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished"><%= date(post.date) %></time>
               </p>
             </div>

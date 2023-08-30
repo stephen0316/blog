@@ -123,8 +123,8 @@ sub {
 }
 
 img {
-  margin-top: 8px;
-  margin-bottom: 16px;
+  margin-top: 4px;
+  margin-bottom: 8px;
   border: 0;
 }
 
@@ -486,13 +486,13 @@ h6,
 }
 
 p {
-  line-height: 2em;
-  margin-top: 4px;
+  line-height: 1.9em;
+  margin-top: 12px;
   margin-right: 0;
   margin-bottom: 4px;
   margin-left: 0;
-  font-size: 16px;
-  margin-inline-start: 4px;
+  font-size: 17px;
+  margin-inline-start: 0px;
 }
 
 .lead {
@@ -652,7 +652,8 @@ a.bg-danger:focus {
 
 ul,
 ol {
-  font-size: 16px;
+  font-size: 17px;
+  line-height: 30px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -5955,6 +5956,8 @@ body.no-sidebar .sidebar {
 
 .main .content {
   min-height: 85vh;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 .main.has-sticky .content {
@@ -5989,6 +5992,7 @@ body.no-sidebar .sidebar {
 .widget time {
   color: #999;
   font-size: 12px;
+  margin-bottom: 8px;
   text-transform: uppercase;
 }
 
@@ -5997,7 +6001,7 @@ body.no-sidebar .sidebar {
 }
 
 .widget ul {
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 0;
   padding-left: 0;
   list-style: none;
@@ -6049,7 +6053,7 @@ body.no-sidebar .sidebar {
 }
 
 .recent-post-list li + li {
-  margin-top: 15px;
+  margin-top: 4px;
 }
 
 .recent-post-list li .item-thumb,
@@ -6481,6 +6485,7 @@ body.no-sidebar .sidebar {
 }
 
 .article-toc .toc .toc-item {
+  font-size: 15px;
   position: relative;
 }
 
