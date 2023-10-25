@@ -47,11 +47,6 @@ config:
   isNewTabLinks: false #是否链接打开新标签页
   autoUnfold: true # 默认展开文章目录
 
-toc:
-  enable: true
-  number: false
-  wrap: false
-
 # Pagination
 pagination:
   number: false
@@ -210,11 +205,11 @@ profile:
     执行力: 🌕 🌕 🌕 🌕 🌕
     学习能力: 🌕 🌕 🌕 🌕 🌑
     团队协作: 🌕 🌕 🌕 🌕 🌑
-
+    
   links:
     站酷: https://zcool.com.cn/studio
     豆瓣: https://douban.com/people/181263519
-    pinterest: https://pinterest.com/ssssstephen
+   # pinterest: https://pinterest.com/ssssstephen
 
   labels:
     - 交互设计
