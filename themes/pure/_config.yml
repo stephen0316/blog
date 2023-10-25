@@ -47,6 +47,11 @@ config:
   isNewTabLinks: false #是否链接打开新标签页
   autoUnfold: true # 默认展开文章目录
 
+toc:
+  enable: true
+  number: false
+  wrap: false
+
 # Pagination
 pagination:
   number: false

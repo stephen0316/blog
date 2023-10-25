@@ -1139,7 +1139,7 @@ address {
 .btn:hover,
 .btn:focus,
 .btn.focus {
-  color: #333;
+  color: #2540d6;
   text-decoration: none;
 }
 
@@ -5934,6 +5934,7 @@ body.no-sidebar .sidebar {
 
 .main .article-list article:last-child {
   border-bottom: 0;
+  margin-bottom: 7%;
 }
 
 .main .article-meta {
@@ -5956,8 +5957,7 @@ body.no-sidebar .sidebar {
 
 .main .content {
   min-height: 85vh;
-  margin-left: 1%;
-  margin-right: 1%;
+  
 }
 
 .main.has-sticky .content {

@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "f83d0ef473e0fcbe",
+        "id": "228ea9c9f4e1df86",
         "type": "tabs",
         "children": [
           {
-            "id": "af98551440160668",
+            "id": "0c6a2dedf7e12d33",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Blog的搭建与写作.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d8a71e59a9383879",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "设计师要懂的技术知识.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "设计师要懂的技术知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "设计师要懂的技术知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +145,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "设计师要懂的技术知识.md"
+              }
             }
           }
         ],
@@ -134,7 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 231.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,16 +167,21 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5af9641947447fce",
+  "active": "d8a71e59a9383879",
   "lastOpenFiles": [
-    "未命名.md",
+    "B端表格设计指南.md",
+    "周读｜.md",
+    "云南.md",
+    "New Bing使用体验，越来越牛的AI.md",
+    "Blog的搭建与写作.md",
+    "IMG_2037.jpeg",
+    "Pasted image 20231008155857.png",
+    "Pasted image 20231008155813.png",
+    "Pasted image 20231008155820.png",
     "未命名.canvas",
     "小聚.md",
     "四姑娘山.md",
-    "云南.md",
-    "Blog的搭建与写作.md",
     "firststep.md",
-    "B端表格设计指南.md",
     "Untitled.md",
     "beginning.md",
     "_MG_8322.jpg",
@@ -179,7 +205,6 @@
     "d7c09abb-cc30-49f4-8416-0ee2766158c6_Export-5708ba0c-2a42-437b-8b12-73664270d95a",
     "blog搭建之路 1feabff8d6414d1b865f3c0bf4bddebf.md",
     "地球上最后一个人.md",
-    "ssss.md",
     "Users/stephen/Desktop/myblog/themes/pure/source",
     "Users/stephen/Desktop/myblog/themes/pure",
     "Users/stephen/Desktop/myblog/themes",
@@ -189,10 +214,6 @@
     "Users",
     "20230411/Pasted image 20230411114455.png",
     "20230411/1111.png",
-    "20230411/444.png",
-    "monica/123.jpg",
-    "B端表格设计指南/yuque_mind.jpeg",
-    "B端表格设计指南/image9.png",
-    "B端表格设计指南/image8.png"
+    "20230411/444.png"
   ]
 }

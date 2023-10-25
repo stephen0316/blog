@@ -4,10 +4,11 @@ categories:
   - 设计
 toc: true #是否生成目录
 date: 2023-03-10
+thumbnail: https://savemyblogpic-1311313070.cos.ap-chengdu.myqcloud.com/blogpicture/%E8%AE%BE%E8%AE%A1%201.png
 ---
 
 最近在工作中遇到一个的需求：“为了满足MEP的市场化需求，需要支持通过liscence授权的方式实现对MEP的使用控制”。简单讲就是产品经理希望在表格的操作列里新增一个“liscence导入”按钮“：
-<img src="https://savemyblogpic-1311313070.cos.ap-chengdu.myqcloud.com/blogpicture/image.png" alt="image"  />
+![p](https://savemyblogpic-1311313070.cos.ap-chengdu.myqcloud.com/blogpicture/p.png)
 需求本身没有问题，但目前的设计存在两个明显的问题：
 
 - 操作列已经容纳了多个按钮，过多的操作项会让用户倍感压力；
