@@ -276,7 +276,7 @@ hexo new post <title>
 ## 如何让写blog更轻松
 
 ### markdown语法
-很多工具都h支持markdown写作，我自己常用obsidian和typora，配合picgo和云服务器能大幅提高图片管理效率
+很多工具都支持markdown写作，我自己常用obsidian和typora，配合picgo和云服务器能大幅提高图片管理效率
 基础教程：
 [Markdown 教程 | 菜鸟教程](https://www.runoob.com/markdown/md-tutorial.html)
 进阶教程：
