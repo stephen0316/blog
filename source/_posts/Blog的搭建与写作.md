@@ -119,7 +119,7 @@ node_modules：用来存储已安装的各类依赖包
 scaffolds：博客模版文件夹，包含page.md，post.md，draft.md三种
 source：资源文件夹，存放静态资源如博客md文件、图片等
 themes：主题文件夹，Hexo通过将网站内容与主题组合来生成静态网站
-package-lock.json：包版本依赖锁文件
+package-lock.json：锁定依赖库版本的文件
 package.json：应用数据，Hexo的版本以及相关依赖包的版本等
 config.landscape.yml：主题配置文件 
 config.yml：站点配置文件，对站点进行配置
