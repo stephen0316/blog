@@ -11,16 +11,7 @@ thumbnail: https://savemyblogpic-1311313070.cos.ap-chengdu.myqcloud.com/blogpict
 - [godaddy.com](https://sg.godaddy.com/)
 - [https://buy.cloud.tencent.com/domain](https://buy.cloud.tencent.com/domain)
 
-### 代码托管
-github：[https://github.com/](https://github.com/)
-图形化界面管理：GitHub desktop
-
-### 部署平台-Vercel
-1. add new project
-2. import
-3. browse all templates>hexo>deploy
-
-### 博客框架：hexo
+### 选择博客框架
 静态博客：
 
 - [Hexo](https://hexo.io/zh-cn/) (https://hexo.io/zh-cn/)
@@ -47,7 +38,7 @@ Hexo 是一个基于Node.js的快速、简洁且高效的静态博客框架。He
 - 搜索引擎对纯静态网站有天然的青睐度，收录、权重优先权明显。
 - 纯静态网站会让网络攻击成本大大的增加也就是说纯静态网站被攻击的可能性更低了
 
-### 安装git：
+#### 安装git：
 1. [https://git-scm.com/downloads](https://git-scm.com/downloads)
 2. git --version
 如果电脑自带git，会提示如下:
@@ -64,7 +55,7 @@ Hexo 是一个基于Node.js的快速、简洁且高效的静态博客框架。He
 brew install git
 ```
 
-### 安装node.js
+#### 安装node.js
 地址：[https://nodejs.org/zh-cn/download/](https://nodejs.org/zh-cn/download/)
 **查看下Git、Node.js版本，确保安装无误**：
 ```
@@ -72,7 +63,7 @@ git --version
 node -v   
 npm -v 
 ```
-### 安装Hexo
+#### 安装Hexo
 ```
 npm install -g hexo-cli
 ```
@@ -125,7 +116,7 @@ config.landscape.yml：主题配置文件
 config.yml：站点配置文件，对站点进行配置
 hexo指令：[https://hexo.io/zh-cn/docs/commands](https://hexo.io/zh-cn/docs/commands)
 
-### 更换博客主题
+#### 更换博客主题
 ```
 cd /Users/stephen/Documents/GitHub/myblog
 ```
@@ -135,7 +126,7 @@ git clone https://github.com/cofess/hexo-theme-pure.git themes/pure
 打开_config.yml，更改主题名称
 theme: xxxx
 
-### 本地查看博客
+#### 本地查看博客
 生成页面，每次你加入了一篇新博客的时候，都要生成一次
 ```
 hexo g
@@ -147,7 +138,7 @@ hexo s
 ```
 浏览器输入：localhost：4000 即可看到 （172.20.10.3:4000）
 
-### 添加live2d模型
+#### 添加live2d模型
 安装
 ```
 npm install --save hexo-helper-live2d
@@ -187,7 +178,62 @@ npm install --save live2d-widget-model-`模型名字`
 sudo npm install -g yuque-hexo
 ```
 
+### 代码托管
+
+github：[https://github.com/](https://github.com/)
+图形化界面管理：GitHub desktop
+
+### 部署平台-Vercel
+
+用github账号登录，步骤：
+
+1. add new project
+2. import
+3. browse all templates>hexo>deploy
+
+#### 账号准备
+
+**请注册好：**[Github 账号 ](https://github.com/)
+
+再前往[Vercel 网站 ](https://vercel.com/)**使用Github账号**注册一个账号。这样注册好以后 Vercel里面就可以看到你 Github 里面的项目了。
+
+![Vercel 主界面](https://evan.beee.top/wp-content/uploads/2022/08/screenshot-20220827-at-113532.webp)
+
+#### 创建 Hexo 项目
+
+创建 Hexo 项目直达链接：
+
+[ Deploy](https://vercel.com/new/clone?repository-url=https://github.com/EvanNotFound/vercel-hexo-template/tree/main&template=hexo)
+
+这时候就到了创建 Hexo 项目的页面了。
+
+左边的 `Git Scope` 是你的 Github 账号，右边 `REPOSITORY NAME` 是你账号下 Hexo 博客仓库的名字，你的博客源文件就存放在这里，名称可以**自选**
+
+项目可见性就保持 `Private`，这样别人就看不到你 Hexo 仓库的各种机密信息了，有效保持版权和隐私
+
+![Vercel 创建 Hexo页面](https://evan.beee.top/wp-content/uploads/2022/08/16616148585893.webp)
+
+最后点击 `Create` 创建项目，等一会就好了。
+
+![Hexo 项目页面](https://evan.beee.top/img/2023/03/18/9b06871ee2d92186e5fb59f5f12c7a72.png)
+
+最后成功以后，会给你一个二级域名，这个二级域名是属于你的，不会回收，建议可以调试的时候临时使用。
+
+部署完成后，它就和你刚刚所填写的仓库绑定了，一旦你的仓库有什么变化，它就会自动同步部署，全过程大概 5 分钟可以完成部署。
+
+你现在可以点击那个二级域名，就可以看到你的 Hexo 博客了。
+
+但是不建议长期使用。
+
+原因有下：
+
+- 这个 `vercel.app` 域名已经被各大搜索引擎屏蔽，无法被收录
+- 这个 `vercel.app` 根域名已经被中国大陆防火长城屏蔽，中国国内无法访问，如果你的读者面向国内，不建议使用
+
+所以建议绑定自己的域名。
+
 ### 零散的知识点
+
 ' ' 前需要加空格
 <img src="https://savemyblogpic-1311313070.cos.ap-chengdu.myqcloud.com/blogpicture/1677059600655-082fa697-7f2a-4960-af53-6db62880a1cb.png" alt="image.png" width="200px" />
 #### 关闭search:

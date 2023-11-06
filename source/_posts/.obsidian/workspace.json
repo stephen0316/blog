@@ -8,7 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0c6a2dedf7e12d33",
+            "id": "d8a71e59a9383879",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blog的搭建与写作.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "0030f53bd88ee106",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a098b0e162f48399",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,17 +36,8 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "d8a71e59a9383879",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,6 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Blog的搭建与写作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,6 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Blog的搭建与写作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,15 +150,17 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Blog的搭建与写作.md"
+              }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,13 +172,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d8a71e59a9383879",
+  "active": "a098b0e162f48399",
   "lastOpenFiles": [
+    "Blog的搭建与写作.md",
+    "读10.30.md",
+    "读10.13.md",
     "B端表格设计指南.md",
     "周读｜.md",
     "云南.md",
     "New Bing使用体验，越来越牛的AI.md",
-    "Blog的搭建与写作.md",
     "IMG_2037.jpeg",
     "Pasted image 20231008155857.png",
     "Pasted image 20231008155813.png",
@@ -196,7 +211,6 @@
     "今天周五啦 1528452926154832aa2e20731431ed4c",
     "d7c09abb-cc30-49f4-8416-0ee2766158c6_Export-5708ba0c-2a42-437b-8b12-73664270d95a",
     "blog搭建之路 1feabff8d6414d1b865f3c0bf4bddebf.md",
-    "地球上最后一个人.md",
     "Users/stephen/Desktop/myblog/themes/pure/source",
     "Users/stephen/Desktop/myblog/themes/pure",
     "Users/stephen/Desktop/myblog/themes",

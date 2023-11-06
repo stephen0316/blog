@@ -193,10 +193,10 @@ profile:
 # follow: https://github.com/cofess
 
   social:
-    links:
-      站酷: https://www.zcool.com.cn/studio
-      豆瓣: https://www.douban.com/people/181263519/?_i=1291074YoTuMM0
-      pinterest: https://www.pinterest.com/ssssstephen/
+    站酷点这里: 
+      link: https://www.zcool.com.cn/studio
+    豆瓣点这里: 
+      link: https://douban.com/people/181263519
     link_tooltip: true # enable the social link tooltip, options: true, false
 
   skills:
@@ -207,9 +207,8 @@ profile:
     团队协作: 🌕 🌕 🌕 🌕 🌑
     
   links:
-    站酷: https://zcool.com.cn/studio
-    豆瓣: https://douban.com/people/181263519
-   # pinterest: https://pinterest.com/ssssstephen
+    站酷点这里: https://zcool.com.cn/studio
+    豆瓣点这里: https://douban.com/people/181263519
 
   labels:
     - 交互设计
