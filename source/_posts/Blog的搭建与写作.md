@@ -178,59 +178,47 @@ npm install --save live2d-widget-model-`模型名字`
 sudo npm install -g yuque-hexo
 ```
 
-### 代码托管
+### 代码托管-github
 
-github：[https://github.com/](https://github.com/)
-图形化界面管理：GitHub desktop
+github：[https://github.com/](https://github.com/)，推荐使用图形化管理软件：GitHub desktop
+
+1、create a new repository，注意本地存放的路径
+
+![image-20231106144847969](https://savemyblogpic-1311313070.cos.ap-chengdu.myqcloud.com/blogpicture/image-20231106144847969.png)
+
+2、publish repository，将本地建好的仓库同步到云端
+
+![image-20231106144137564](https://savemyblogpic-1311313070.cos.ap-chengdu.myqcloud.com/blogpicture/image-20231106144137564.png)
+
+3、将网站代码放到本地仓库所在的文件夹内，就能看到很多未提交的文件，推送一下即可同步更新至云端
+![image-20231106144607084](https://savemyblogpic-1311313070.cos.ap-chengdu.myqcloud.com/blogpicture/image-20231106144607084.png)
 
 ### 部署平台-Vercel
 
-用github账号登录，步骤：
+使用github账号登录，步骤：
 
 1. add new project
+
 2. import
-3. browse all templates>hexo>deploy
 
-#### 账号准备
+   ![](https://savemyblogpic-1311313070.cos.ap-chengdu.myqcloud.com/blogpicture/image-20231106145057405.png)
 
-**请注册好：**[Github 账号 ](https://github.com/)
+3. 输入项目名称，framework preset选择 “hexo”，最后deploy一下即可
 
-再前往[Vercel 网站 ](https://vercel.com/)**使用Github账号**注册一个账号。这样注册好以后 Vercel里面就可以看到你 Github 里面的项目了。
+![image-20231106150229599](https://savemyblogpic-1311313070.cos.ap-chengdu.myqcloud.com/blogpicture/image-20231106150229599.png)
 
-![Vercel 主界面](https://evan.beee.top/wp-content/uploads/2022/08/screenshot-20220827-at-113532.webp)
+部署完成后，它就和你刚刚所填写的仓库绑定了，一旦你的仓库有什么变化，它就会自动同步部署，全过程大概 5 分钟可以完成部署。同时系统会分配一个二级域名给你，点击就可以预览Hexo博客。
 
-#### 创建 Hexo 项目
+如果想要绑定自己的域名，需要进入到项目的 **Settings-Domains**，输入购买的域名，点击Add，成功之后点开新增域名的 **Nameservers**
+![](https://savemyblogpic-1311313070.cos.ap-chengdu.myqcloud.com/blogpicture/image-20231106150941417.png)
 
-创建 Hexo 项目直达链接：
+进入“腾讯云-云解析DNS”（根据自己购买域名的网站的路径来），点击解析，将vercel里的**Nameservers**里的信息填入即可。
 
-[ Deploy](https://vercel.com/new/clone?repository-url=https://github.com/EvanNotFound/vercel-hexo-template/tree/main&template=hexo)
+![image-20231106151627376](https://savemyblogpic-1311313070.cos.ap-chengdu.myqcloud.com/blogpicture/image-20231106151627376.png)
 
-这时候就到了创建 Hexo 项目的页面了。
+可能需要稍微等久一点，当 Vercel 中域名下出现这两个蓝色提示时，代表网站就可以访问了
 
-左边的 `Git Scope` 是你的 Github 账号，右边 `REPOSITORY NAME` 是你账号下 Hexo 博客仓库的名字，你的博客源文件就存放在这里，名称可以**自选**
-
-项目可见性就保持 `Private`，这样别人就看不到你 Hexo 仓库的各种机密信息了，有效保持版权和隐私
-
-![Vercel 创建 Hexo页面](https://evan.beee.top/wp-content/uploads/2022/08/16616148585893.webp)
-
-最后点击 `Create` 创建项目，等一会就好了。
-
-![Hexo 项目页面](https://evan.beee.top/img/2023/03/18/9b06871ee2d92186e5fb59f5f12c7a72.png)
-
-最后成功以后，会给你一个二级域名，这个二级域名是属于你的，不会回收，建议可以调试的时候临时使用。
-
-部署完成后，它就和你刚刚所填写的仓库绑定了，一旦你的仓库有什么变化，它就会自动同步部署，全过程大概 5 分钟可以完成部署。
-
-你现在可以点击那个二级域名，就可以看到你的 Hexo 博客了。
-
-但是不建议长期使用。
-
-原因有下：
-
-- 这个 `vercel.app` 域名已经被各大搜索引擎屏蔽，无法被收录
-- 这个 `vercel.app` 根域名已经被中国大陆防火长城屏蔽，中国国内无法访问，如果你的读者面向国内，不建议使用
-
-所以建议绑定自己的域名。
+![image-20231106152112142](https://savemyblogpic-1311313070.cos.ap-chengdu.myqcloud.com/blogpicture/image-20231106152112142.png)
 
 ### 零散的知识点
 
